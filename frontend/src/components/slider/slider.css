@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+@keyframes slide {
+  from{
+   transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+.logos{
+  overflow: hidden;
+  padding: 60px 0 0 ;
+  white-space: nowrap;
+  position: relative;
+  margin-bottom: 0;
+}
+
+
+.logos:hover .logos-slide { 
+  animation-play-state: paused;
+}
+
+
+.logos-slide{
+display: inline-block;
+  width: auto;
+  animation: 10s slide infinite linear;
+}
+img{
+  height: 70px;
+  width: 70px;
+  margin-left: 30px;
+}
+.slider{
+  margin-bottom: 0%;
+}
+h2{
+  text-align: center;
+}

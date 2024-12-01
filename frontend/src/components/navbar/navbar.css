@@ -1,0 +1,15 @@
+.nav-img{
+  height: 30px;
+  width: 50px;
+}
+
+.navbar-brand{
+  color: red;
+}
+
+.btn-nav{
+  background-color: red;
+  border-radius: 05px;
+  color: white !important ;
+  font-weight: bold;
+}
